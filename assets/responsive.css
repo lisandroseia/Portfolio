@@ -2,7 +2,7 @@
 media-querys table
  */
 
-/* big screens*/
+/* big screens */
 
 @media (min-width: 1200px) {
   h1 {
@@ -29,12 +29,52 @@ media-querys table
 
 /* horizontal tablets and average desktop */
 
-@media (min-width: 768px) and (max-width: 1199px){
+@media (min-width: 768px) and (max-width: 1199px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
 }
 
 /* horizontal moviles */
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
 }
 
 /* average moviles */
