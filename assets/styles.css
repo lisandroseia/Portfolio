@@ -8,6 +8,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Zen Old Mincho", serif;
 }
@@ -58,7 +60,7 @@ nav > ul > li {
 
 nav > ul > li > a {
   text-decoration: none;
-  color: var(--secondary-text-color: );
+  color: var(--secondary-text-color);
 }
 
 nav > ul > li > a:hover {
@@ -85,6 +87,7 @@ h1 {
   line-height: 120%;
   font-weight: bold;
   color: var(--title-color);
+  margin-bottom: 20px;
 }
 
 #present-text {
@@ -93,6 +96,7 @@ h1 {
 }
 
 #contact-p {
+  margin: 15px 0px;
   font-weight: 500;
   color: var(--terciary-text-color);
 }
