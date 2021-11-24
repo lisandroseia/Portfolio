@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap");
+
+:root {
+  --logo-color: #6070ff;
+  --title-color: #091e42;
+  --secondary-text-color: #344563;
+  --terciary-text-color: #7f8cff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Zen Old Mincho", serif;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#container {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+#logo {
+  font-weight: 700;
+  color: var(--logo-color);
+}
+
+#logo:hover {
+  color: var(--secondary-text-color);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+nav > ul {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+nav > ul > li {
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: var(--secondary-text-color: );
+}
+
+nav > ul > li > a:hover {
+  color: var(--logo-color);
+}
+
+#present {
+  background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titles {
+  line-height: 150%;
+  text-align: left;
+}
+
+h1 {
+  line-height: 120%;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+#present-text {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+#contact-p {
+  font-weight: 500;
+  color: var(--terciary-text-color);
+}
+
+#icons > a {
+  padding: 5px 5px;
+}
+
+#contact {
+  width: 63%;
+  text-align: left;
+}

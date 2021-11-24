@@ -5,23 +5,59 @@ media-querys table
 /* big screens*/
 
 @media (min-width: 1200px) {
-    
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo{
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
 }
 
 /* horizontal tablets and average desktop*/
 
-@media (min-width:768px) and (max-width:1199px) {
-    
+@media (min-width: 768px) and (max-width: 1199px) {
 }
 
 /*horizontal moviles*/
 
 @media (max-width: 767px) {
-    
 }
 
 /*average moviles*/
 
-@media (max-width:480px) {
-    
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #logo{
+    font-size: 18px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 16px;
+  }
+
+  #titles,
+  #contact {
+    width: 85%;
+  }
 }
