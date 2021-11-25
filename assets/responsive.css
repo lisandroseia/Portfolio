@@ -124,7 +124,8 @@ media-querys table
     font-size: 16px;
   }
 
-  #titles, #contact{
+  #titles,
+  #contact {
     width: 80%;
   }
 

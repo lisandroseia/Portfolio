@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Zen+Old+Mincho&display=swap");
 :root {
   --logo-color: #6070ff;
-  --title-color: #172B4D;
+  --title-color: #172b4d;
   --secondary-text-color: #344563;
   --terciary-text-color: #7f8cff;
 }
@@ -32,7 +32,7 @@ nav {
   align-items: center;
 }
 
-main{
+main {
   width: 100%;
 }
 
