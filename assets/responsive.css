@@ -5,12 +5,11 @@ media-querys table
 /* big screens */
 
 @media (min-width: 1200px) {
-  
-  header{
+  header {
     margin-top: 25px;
   }
 
-  nav{
+  nav {
     width: 75%;
   }
 
@@ -35,8 +34,8 @@ media-querys table
     width: 63%;
   }
 
-  #present{
-    background: url(./assets/imgs/Header\ bg.jpg) no-repeat center center;
+  #present {
+    background: url(./assets/imgs/background.jpg) no-repeat center center;
   }
 }
 
@@ -64,8 +63,8 @@ media-querys table
     width: 63%;
   }
 
-  #present{
-    background: url(./assets/imgs/Header\ bg.jpg) no-repeat center center;
+  #present {
+    background: url(./assets/imgs/background.jpg) no-repeat center center;
   }
 }
 
@@ -93,20 +92,19 @@ media-querys table
     width: 63%;
   }
 
-  #present{
-    background: url(./assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
+  #present {
+    background: url(./assets/imgs/mobilebg.jpg) no-repeat center center;
   }
 }
 
 /* average moviles */
 
 @media (max-width: 480px) {
-
-  header{
+  header {
     margin-top: 35px;
-  } 
+  }
 
-  nav{
+  nav {
     width: 80%;
   }
 
@@ -131,7 +129,7 @@ media-querys table
     width: 85%;
   }
 
-  #present{
-    background: url(./assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
+  #present {
+    background: url(./assets/imgs/mobilebg.jpg) no-repeat center center;
   }
 }
