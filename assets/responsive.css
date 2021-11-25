@@ -5,6 +5,15 @@ media-querys table
 /* big screens */
 
 @media (min-width: 1200px) {
+  
+  header{
+    margin-top: 25px;
+  }
+
+  nav{
+    width: 75%;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -27,7 +36,7 @@ media-querys table
   }
 
   #present{
-    background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
+    background: url(./assets/imgs/Header\ bg.jpg) no-repeat center center;
   }
 }
 
@@ -56,7 +65,7 @@ media-querys table
   }
 
   #present{
-    background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
+    background: url(./assets/imgs/Header\ bg.jpg) no-repeat center center;
   }
 }
 
@@ -85,13 +94,22 @@ media-querys table
   }
 
   #present{
-    background: url(/assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
+    background: url(./assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
   }
 }
 
 /* average moviles */
 
 @media (max-width: 480px) {
+
+  header{
+    margin-top: 35px;
+  } 
+
+  nav{
+    width: 80%;
+  }
+
   h1 {
     font-size: 40px;
   }
@@ -114,6 +132,6 @@ media-querys table
   }
 
   #present{
-    background: url(/assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
+    background: url(./assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
   }
 }

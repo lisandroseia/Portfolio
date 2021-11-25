@@ -17,7 +17,6 @@ header {
 }
 
 nav {
-  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: nowrap;
@@ -45,7 +44,13 @@ nav {
 }
 
 .bx-menu{
-font-size: 22px;
+font-size: 25px;
+color: var(--logo-color);
+font: bold;
+}
+
+.bx-menu:hover{
+  cursor: pointer;
 }
 
 #present {
@@ -80,9 +85,16 @@ h1 {
   color: var(--terciary-text-color);
 }
 
-#icons > a {
-  padding: 5px 5px;
+#icons > li > a {
+  padding: 5px 19px;
 }
+
+#icons{
+  list-style: none;
+  display: flex;
+}
+
+
 
 #contact {
   width: 63%;
