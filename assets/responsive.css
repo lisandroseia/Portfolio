@@ -6,7 +6,7 @@ media-querys table
 
 @media (min-width: 1200px) {
   header {
-    margin-top: 25px;
+    padding-top: 25px;
   }
 
   nav {
@@ -37,6 +37,54 @@ media-querys table
   #present {
     background: url(./imgs/background.jpg) no-repeat center center;
   }
+
+  #works{
+    width: 63%;
+  }
+
+  .image{
+  width: 50%;
+  height: 100%;
+  }
+   
+  .work-info{
+    width: 45%;
+    height: 100%;
+  }
+
+  .second{
+    flex-direction: row-reverse;
+  }
+
+  .wraper{
+    padding: 10px;
+  }
+
+  .work-info > h2{
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  
+  .description-wraper > h3{
+    font-size: 18px;
+  }
+
+  .description-wraper > p{
+    font-size: 18px;
+  }
+
+  .work-text{
+    font-size: 16px;
+  }
+
+  .project-btn{
+    font-size: 17px;
+  }
+
+  .framework{
+    font-size: 12px;
+  }
+
 }
 
 /* horizontal tablets and average desktop */
@@ -101,9 +149,8 @@ media-querys table
 
 @media (max-width: 480px) {
   header {
-    margin-top: 35px;
+    padding-top: 35px;
   }
-
   nav {
     width: 80%;
   }
@@ -132,4 +179,53 @@ media-querys table
   #present {
     background: url(./imgs/mobilebg.jpg) no-repeat center center;
   }
+  
+  /* second project */
+   #works{
+     width: 95%;
+   }
+  .wraper{
+    flex-direction: column;
+  }
+
+  .image{
+    height: 50%;
+  width: 100%;
+  }
+
+  .work-info{
+    width: 100%;
+    padding-top: 5px;
+    height: 50%;
+  }
+
+  .wraper{
+    padding: 25px 10px;
+    height: 85vh;
+  }
+
+  .work-info > h2{
+    font-size: 32px;
+  }
+  
+  .description-wraper > h3{
+    font-size: 13px;
+  }
+
+  .description-wraper > p{
+    font-size: 13px;
+  }
+
+  .work-text{
+    font-size: 15px;
+  }
+
+  .project-btn{
+    font-size: 17px;
+  }
+
+  .framework{
+    font-size: 12px;
+  }
+
 }
