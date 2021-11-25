@@ -35,7 +35,7 @@ media-querys table
   }
 
   #present {
-    background: url(./assets/imgs/background.jpg) no-repeat center center;
+    background: url(./imgs/background.jpg) no-repeat center center;
   }
 }
 
@@ -64,7 +64,7 @@ media-querys table
   }
 
   #present {
-    background: url(./assets/imgs/background.jpg) no-repeat center center;
+    background: url(./imgs/background.jpg) no-repeat center center;
   }
 }
 
@@ -93,7 +93,7 @@ media-querys table
   }
 
   #present {
-    background: url(./assets/imgs/mobilebg.jpg) no-repeat center center;
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
   }
 }
 
@@ -130,6 +130,6 @@ media-querys table
   }
 
   #present {
-    background: url(./assets/imgs/mobilebg.jpg) no-repeat center center;
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
   }
 }
