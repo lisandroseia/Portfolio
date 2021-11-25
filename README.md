@@ -32,7 +32,7 @@ html & css
 
 Contributions, issues, and feature requests are welcome!
 
-Feel fre to check the (issues)[https://github.com/lisandroseia/Portfolio/issues] page
+Feel fre to check the [issues](https://github.com/lisandroseia/Portfolio/issues) page
 
 ## Show your support
 
@@ -40,4 +40,4 @@ Give a ⭐️ if you like this project!
 
 ## license
 
-this project is (MIT)[https://github.com/lisandroseia/Portfolio/blob/main/LICENSE] licensed.
+this project is [MIT](https://github.com/lisandroseia/Portfolio/blob/main/LICENSE) licensed.
