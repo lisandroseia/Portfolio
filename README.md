@@ -1,20 +1,24 @@
-# Hello microverse project
+Portfolio
 
-> this is my first microverse project
+> this is my second microverse project
 
-Additional description about the project and its features.
+<img src="./assets/imgs/screenshot.png">
+
+## Project description:
+ 
+ In this project i made a copy of the template from [this page](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
 ## Built With
 
 - Major languages
 html & css
 - 
-- Technologies used
-github
+- Technologies used:
+  github
 
 ## Live Demo
 
-[Live Demo Link](https://lisandroseia.github.io/Hello-microverse-project/)
+[Live Demo Link](https://lisandroseia.github.io/Portfolio/)
 
 
 ## Authors
@@ -24,16 +28,16 @@ github
 - GitHub: [@lisandroseia](https://github.com/lisandroseia)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+Feel fre to check the (issues)[https://github.com/lisandroseia/Portfolio/issues] page
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-this project follows the MIT license
+##license
+
+this project is (MIT)[https://github.com/lisandroseia/Portfolio/blob/main/LICENSE] licensed.
