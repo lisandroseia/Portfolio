@@ -1,0 +1,135 @@
+/* resposive
+media-querys table
+ */
+
+/* big screens */
+
+@media (min-width: 1200px) {
+  header {
+    margin-top: 25px;
+  }
+
+  nav {
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
+
+  #present {
+    background: url(./imgs/background.jpg) no-repeat center center;
+  }
+}
+
+/* horizontal tablets and average desktop */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
+
+  #present {
+    background: url(./imgs/background.jpg) no-repeat center center;
+  }
+}
+
+/* horizontal moviles */
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 20px;
+  }
+
+  #titles,
+  #contact {
+    width: 63%;
+  }
+
+  #present {
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
+  }
+}
+
+/* average moviles */
+
+@media (max-width: 480px) {
+  header {
+    margin-top: 35px;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #logo {
+    font-size: 18px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 16px;
+  }
+
+  #titles,
+  #contact {
+    width: 80%;
+  }
+
+  #present {
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
+  }
+}
