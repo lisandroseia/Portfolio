@@ -25,6 +25,10 @@ media-querys table
   #contact {
     width: 63%;
   }
+
+  #present{
+    background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
+  }
 }
 
 /* horizontal tablets and average desktop */
@@ -49,6 +53,10 @@ media-querys table
   #titles,
   #contact {
     width: 63%;
+  }
+
+  #present{
+    background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
   }
 }
 
@@ -75,6 +83,10 @@ media-querys table
   #contact {
     width: 63%;
   }
+
+  #present{
+    background: url(/assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
+  }
 }
 
 /* average moviles */
@@ -99,5 +111,9 @@ media-querys table
   #titles,
   #contact {
     width: 85%;
+  }
+
+  #present{
+    background: url(/assets/imgs/header-shapes\ mobile@2x.jpg) no-repeat center center;
   }
 }

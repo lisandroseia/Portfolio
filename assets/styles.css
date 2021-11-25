@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap");
-
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Zen+Old+Mincho&display=swap');:root {
   --logo-color: #6070ff;
   --title-color: #091e42;
   --secondary-text-color: #344563;
@@ -11,12 +9,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Zen Old Mincho", serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
   width: 100vw;
-  height: 100vh;
 }
 
 nav {
@@ -38,6 +35,7 @@ nav {
 #logo {
   font-weight: 700;
   color: var(--logo-color);
+  text-decoration: none;
 }
 
 #logo:hover {
@@ -46,28 +44,11 @@ nav {
   cursor: pointer;
 }
 
-nav > ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-nav > ul > li {
-  padding: 10px 10px;
-  font-weight: bold;
-}
-
-nav > ul > li > a {
-  text-decoration: none;
-  color: var(--secondary-text-color);
-}
-
-nav > ul > li > a:hover {
-  color: var(--logo-color);
+.bx-menu{
+font-size: 22px;
 }
 
 #present {
-  background: url(/assets/imgs/Header\ bg.jpg) no-repeat center center;
   background-size: 100% 100%;
   width: 100%;
   height: 85%;
