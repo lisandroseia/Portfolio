@@ -38,6 +38,6 @@ Feel fre to check the (issues)[https://github.com/lisandroseia/Portfolio/issues]
 
 Give a ⭐️ if you like this project!
 
-##license
+## license
 
 this project is (MIT)[https://github.com/lisandroseia/Portfolio/blob/main/LICENSE] licensed.
