@@ -85,11 +85,49 @@ media-querys table
     font-size: 12px;
   }
 
+  .work-child{
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+   
+  #container2{
+    height: 100vh;
+  }
+
+  #about-me{
+    width: 63%;
+  }
+
+  #aboutme-desc{
+    width: 55%;
+  }
+  
+  #ab-me-technical{
+    width: 45%;
+  }
+
+  #lang-list{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #lang-list >li{
+    max-width: 122px;
+  height: 120px;
+  }
+
 }
 
 /* horizontal tablets and average desktop */
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  header {
+    padding-top: 25px;
+  }
+
+  nav {
+    width: 75%;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -114,40 +152,62 @@ media-querys table
   #present {
     background: url(./imgs/background.jpg) no-repeat center center;
   }
+
+  #works{
+    width: 63%;
+  }
+
+  .image{
+  width: 50%;
+  height: 100%;
+  }
+   
+  .work-info{
+    width: 45%;
+    height: 100%;
+  }
+
+  .second{
+    flex-direction: row-reverse;
+  }
+
+  .wraper{
+    padding: 10px;
+  }
+
+  .work-info > h2{
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  
+  .description-wraper > h3{
+    font-size: 18px;
+  }
+
+  .description-wraper > p{
+    font-size: 18px;
+  }
+
+  .work-text{
+    font-size: 16px;
+  }
+
+  .project-btn{
+    font-size: 17px;
+  }
+
+  .framework{
+    font-size: 12px;
+  }
+
+  .work-child{
+    margin-bottom: 10px;
+  }
 }
 
 /* horizontal moviles */
 
 @media (max-width: 767px) {
-  h1 {
-    font-size: 48px;
-  }
-
-  #logo {
-    font-size: 20px;
-  }
-
-  #contact-p {
-    font-size: 16px;
-  }
-
-  #present-text {
-    font-size: 20px;
-  }
-
-  #titles,
-  #contact {
-    width: 63%;
-  }
-
-  #present {
-    background: url(./imgs/mobilebg.jpg) no-repeat center center;
-  }
-}
-
-/* average moviles */
-
-@media (max-width: 480px) {
   header {
     padding-top: 35px;
   }
@@ -189,9 +249,17 @@ media-querys table
   }
 
   .image{
+
     height: 50%;
-  width: 100%;
+    width: 100%;
   }
+
+.image > img{
+  height: 100%;
+  padding: 5px;
+  object-fit: cover;
+  object-position: center center;
+}
 
   .work-info{
     width: 100%;
@@ -218,6 +286,7 @@ media-querys table
 
   .work-text{
     font-size: 15px;
+    padding-right: 20px;
   }
 
   .project-btn{
@@ -226,6 +295,148 @@ media-querys table
 
   .framework{
     font-size: 12px;
+  }
+
+  .work-child{
+    margin-bottom: 30px;
+  }
+}
+
+/* average moviles */
+
+@media (max-width: 480px) {
+  /* navigation bar */
+  header {
+    padding-top: 35px;
+  }
+  nav {
+    width: 80%;
+  }
+
+  /* presentation section */
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #logo {
+    font-size: 18px;
+  }
+
+  #contact-p {
+    font-size: 16px;
+  }
+
+  #present-text {
+    font-size: 16px;
+  }
+
+  #titles,
+  #contact {
+    width: 80%;
+  }
+
+  #present {
+    background: url(./imgs/mobilebg.jpg) no-repeat center center;
+  }
+  
+  /* second project */
+
+  /* works section */
+   #works{
+     width: 95%;
+   }
+  .wraper{
+    flex-direction: column;
+  }
+
+  .image{
+    height: 50%;
+  width: 100%;
+  }
+
+  .work-info{
+    width: 100%;
+    padding-top: 5px;
+    height: 50%;
+  }
+
+  .wraper{
+    padding: 25px 10px;
+    height: 100vh;
+  }
+
+  .work-info > h2{
+    font-size: 32px;
+  }
+  
+  .description-wraper > h3{
+    font-size: 13px;
+  }
+
+  .description-wraper > p{
+    font-size: 13px;
+  }
+
+  .work-text{
+    font-size: 15px;
+  }
+
+  .project-btn{
+    font-size: 17px;
+  }
+
+  .framework{
+    font-size: 12px;
+  }
+   
+  .work-child{
+    margin-bottom: 20px;
+  }
+
+  /* about me section */
+  
+  #container2{
+    height: 100vh;
+  }
+
+  #about-me{
+    flex-direction: column;
+    padding: ;
+    width: 90%;
+  }
+
+  #aboutme-desc{
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 21px;
+    text-align: start;
+  }
+  
+  #ab-me-technical{
+    width: 100%;
+    height: 50%;
+  }
+
+  #lang-list{
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  /* about me lettering */
+
+  #lang-list > p{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #lang-list > li{
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  #lang-list > li > img{
+    margin-right: 10px;
   }
 
 }
