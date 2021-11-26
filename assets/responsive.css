@@ -38,83 +38,82 @@ media-querys table
     background: url(./imgs/background.jpg) no-repeat center center;
   }
 
-  #works{
+  #works {
     width: 63%;
   }
 
-  .image{
-  width: 50%;
-  height: 100%;
+  .image {
+    width: 50%;
+    height: 100%;
   }
-   
-  .work-info{
+
+  .work-info {
     width: 45%;
     height: 100%;
   }
 
-  .second{
+  .second {
     flex-direction: row-reverse;
   }
 
-  .wraper{
+  .wraper {
     padding: 10px;
   }
 
-  .work-info > h2{
+  .work-info > h2 {
     margin-top: 10px;
     font-size: 40px;
   }
-  
-  .description-wraper > h3{
+
+  .description-wraper > h3 {
     font-size: 18px;
   }
 
-  .description-wraper > p{
+  .description-wraper > p {
     font-size: 18px;
   }
 
-  .work-text{
+  .work-text {
     font-size: 16px;
   }
 
-  .project-btn{
+  .project-btn {
     font-size: 17px;
   }
 
-  .framework{
+  .framework {
     font-size: 12px;
   }
 
-  .work-child{
+  .work-child {
     margin-bottom: 20px;
   }
 
   /* about me section */
-   
-  #container2{
+
+  #container2 {
     height: 100vh;
   }
 
-  #about-me{
+  #about-me {
     width: 63%;
   }
 
-  #aboutme-desc{
+  #aboutme-desc {
     width: 55%;
   }
-  
-  #ab-me-technical{
+
+  #ab-me-technical {
     width: 45%;
   }
 
-  #lang-list{
+  #lang-list {
     grid-template-columns: repeat(4, 1fr);
   }
-  #lang-list >li{
+  #lang-list > li {
     max-width: 122px;
-  height: 120px;
+    height: 120px;
   }
-
 }
 
 /* horizontal tablets and average desktop */
@@ -153,54 +152,54 @@ media-querys table
     background: url(./imgs/background.jpg) no-repeat center center;
   }
 
-  #works{
+  #works {
     width: 63%;
   }
 
-  .image{
-  width: 50%;
-  height: 100%;
+  .image {
+    width: 50%;
+    height: 100%;
   }
-   
-  .work-info{
+
+  .work-info {
     width: 45%;
     height: 100%;
   }
 
-  .second{
+  .second {
     flex-direction: row-reverse;
   }
 
-  .wraper{
+  .wraper {
     padding: 10px;
   }
 
-  .work-info > h2{
+  .work-info > h2 {
     margin-top: 10px;
     font-size: 40px;
   }
-  
-  .description-wraper > h3{
+
+  .description-wraper > h3 {
     font-size: 18px;
   }
 
-  .description-wraper > p{
+  .description-wraper > p {
     font-size: 18px;
   }
 
-  .work-text{
+  .work-text {
     font-size: 16px;
   }
 
-  .project-btn{
+  .project-btn {
     font-size: 17px;
   }
 
-  .framework{
+  .framework {
     font-size: 12px;
   }
 
-  .work-child{
+  .work-child {
     margin-bottom: 10px;
   }
 }
@@ -239,65 +238,64 @@ media-querys table
   #present {
     background: url(./imgs/mobilebg.jpg) no-repeat center center;
   }
-  
+
   /* second project */
-   #works{
-     width: 95%;
-   }
-  .wraper{
+  #works {
+    width: 95%;
+  }
+  .wraper {
     flex-direction: column;
   }
 
-  .image{
-
+  .image {
     height: 50%;
     width: 100%;
   }
 
-.image > img{
-  height: 100%;
-  padding: 5px;
-  object-fit: cover;
-  object-position: center center;
-}
+  .image > img {
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+    object-position: center center;
+  }
 
-  .work-info{
+  .work-info {
     width: 100%;
     padding-top: 5px;
     height: 50%;
   }
 
-  .wraper{
+  .wraper {
     padding: 25px 10px;
     height: 85vh;
   }
 
-  .work-info > h2{
+  .work-info > h2 {
     font-size: 32px;
   }
-  
-  .description-wraper > h3{
+
+  .description-wraper > h3 {
     font-size: 13px;
   }
 
-  .description-wraper > p{
+  .description-wraper > p {
     font-size: 13px;
   }
 
-  .work-text{
+  .work-text {
     font-size: 15px;
     padding-right: 20px;
   }
 
-  .project-btn{
+  .project-btn {
     font-size: 17px;
   }
 
-  .framework{
+  .framework {
     font-size: 12px;
   }
 
-  .work-child{
+  .work-child {
     margin-bottom: 30px;
   }
 }
@@ -339,104 +337,102 @@ media-querys table
   #present {
     background: url(./imgs/mobilebg.jpg) no-repeat center center;
   }
-  
+
   /* second project */
 
   /* works section */
-   #works{
-     width: 95%;
-   }
-  .wraper{
+  #works {
+    width: 95%;
+  }
+  .wraper {
     flex-direction: column;
   }
 
-  .image{
+  .image {
     height: 50%;
-  width: 100%;
+    width: 100%;
   }
 
-  .work-info{
+  .work-info {
     width: 100%;
     padding-top: 5px;
     height: 50%;
   }
 
-  .wraper{
+  .wraper {
     padding: 25px 10px;
     height: 100vh;
   }
 
-  .work-info > h2{
+  .work-info > h2 {
     font-size: 32px;
   }
-  
-  .description-wraper > h3{
+
+  .description-wraper > h3 {
     font-size: 13px;
   }
 
-  .description-wraper > p{
+  .description-wraper > p {
     font-size: 13px;
   }
 
-  .work-text{
+  .work-text {
     font-size: 15px;
   }
 
-  .project-btn{
+  .project-btn {
     font-size: 17px;
   }
 
-  .framework{
+  .framework {
     font-size: 12px;
   }
-   
-  .work-child{
+
+  .work-child {
     margin-bottom: 20px;
   }
 
   /* about me section */
-  
-  #container2{
+
+  #container2 {
     height: 100vh;
   }
 
-  #about-me{
+  #about-me {
     flex-direction: column;
     padding: ;
     width: 90%;
   }
 
-  #aboutme-desc{
+  #aboutme-desc {
     width: 100%;
     height: 50%;
     padding: 0 20px 0 21px;
     text-align: start;
   }
-  
-  #ab-me-technical{
+
+  #ab-me-technical {
     width: 100%;
     height: 50%;
   }
 
-  #lang-list{
+  #lang-list {
     grid-template-rows: repeat(3, 1fr);
   }
 
   /* about me lettering */
 
-  #lang-list > p{
+  #lang-list > p {
     font-size: 15px;
-    font-weight: 500;
   }
 
-  #lang-list > li{
+  #lang-list > li {
     display: flex;
     align-content: center;
     align-items: center;
   }
 
-  #lang-list > li > img{
+  #lang-list > li > img {
     margin-right: 10px;
   }
-
 }
