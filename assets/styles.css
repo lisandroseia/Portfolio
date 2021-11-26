@@ -329,3 +329,7 @@ h1 {
   font-weight: 500;
   color: #253858;
 }
+
+.work-info > h2 {
+  color: #172b4d;
+}
