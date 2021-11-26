@@ -99,11 +99,11 @@ h1 {
   color: var(--terciary-text-color);
 }
 
-#icons > li > a {
+.icons > li > a {
   padding: 5px 19px 0 0;
 }
 
-#icons {
+.icons {
   list-style: none;
   display: flex;
 }
@@ -114,7 +114,7 @@ h1 {
 
 /* starting second project */
 
-/*works section */
+/* works section */
 
 #works {
   background-color: #f4f5f7;
@@ -209,7 +209,7 @@ h1 {
 
 .description-wraper > h3 {
   color: #344563;
-  font-weight: 18px;
+  font-weight: bold;
 }
 
 .description-wraper > p {
@@ -233,7 +233,6 @@ h1 {
 
 #about-me {
   border-radius: 0 150px 0 0;
-
   background-color: #fff;
   display: flex;
   margin: auto;
@@ -246,6 +245,8 @@ h1 {
 
 #ab-me-technical {
   padding: 0 0 0 20px;
+  width: 100%;
+
 }
 
 #frames {
@@ -264,20 +265,12 @@ h1 {
   padding: 10px;
   background-color: #f4f5f7;
   border-radius: 8px;
-
   text-align: left;
 }
+
 #lang-list > li > img {
   object-fit: cover;
   object-position: center center;
-}
-
-#lang-list > li > p {
-  color: #253858;
-}
-
-#ab-me-technical {
-  width: 100%;
 }
 
 .technical {
@@ -288,6 +281,7 @@ h1 {
 
 #languajes {
   flex-direction: column;
+  padding: 20px 5px 20px 0;
 }
 
 #lang-title {
@@ -295,10 +289,6 @@ h1 {
   justify-content: space-between;
   width: 100%;
   padding: 5px 50px 20px 0;
-}
-
-#languajes {
-  padding: 20px 5px 20px 0;
 }
 
 .technical2 {
@@ -335,6 +325,8 @@ h1 {
 .icons2 {
   margin-left: 15px;
 }
-#lang-list > p {
+
+#lang-list > li > p {
   font-weight: 500;
+  color: #253858;
 }

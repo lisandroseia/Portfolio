@@ -110,10 +110,12 @@ media-querys table
   #lang-list {
     grid-template-columns: repeat(4, 1fr);
   }
+  
   #lang-list > li {
     max-width: 122px;
     height: 120px;
   }
+
 }
 
 /* horizontal tablets and average desktop */
@@ -207,9 +209,11 @@ media-querys table
 /* horizontal moviles */
 
 @media (max-width: 767px) {
+
   header {
     padding-top: 35px;
   }
+
   nav {
     width: 80%;
   }
@@ -240,11 +244,15 @@ media-querys table
   }
 
   /* second project */
+
   #works {
     width: 95%;
   }
+
   .wraper {
     flex-direction: column;
+    padding: 25px 10px;
+    height: 85vh;
   }
 
   .image {
@@ -263,11 +271,6 @@ media-querys table
     width: 100%;
     padding-top: 5px;
     height: 50%;
-  }
-
-  .wraper {
-    padding: 25px 10px;
-    height: 85vh;
   }
 
   .work-info > h2 {
@@ -303,10 +306,13 @@ media-querys table
 /* average moviles */
 
 @media (max-width: 480px) {
+
   /* navigation bar */
+
   header {
     padding-top: 35px;
   }
+
   nav {
     width: 80%;
   }
@@ -346,6 +352,8 @@ media-querys table
   }
   .wraper {
     flex-direction: column;
+    padding: 25px 10px;
+    height: 100vh;
   }
 
   .image {
@@ -357,11 +365,6 @@ media-querys table
     width: 100%;
     padding-top: 5px;
     height: 50%;
-  }
-
-  .wraper {
-    padding: 25px 10px;
-    height: 100vh;
   }
 
   .work-info > h2 {
@@ -400,7 +403,6 @@ media-querys table
 
   #about-me {
     flex-direction: column;
-    padding: ;
     width: 90%;
   }
 
