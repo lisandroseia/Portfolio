@@ -14,6 +14,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #f4f5f7;
+}
+
 header {
   width: 100%;
 }
@@ -26,15 +30,16 @@ nav {
 }
 
 #container {
-  margin: auto;
+  margin: 0 auto auto auto;
   width: 100%;
   height: 100vh;
-  background-color: #fff;
+  background-color: #f4f5f7;
   align-items: center;
 }
 
 main {
   width: 100%;
+  background-color: #fff;
 }
 
 #logo {
@@ -62,7 +67,8 @@ main {
 #present {
   background-size: 100% 100%;
   width: 100%;
-  height: 85%;
+  height: 92%;
+  border-radius: 0 0 0 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,20 +94,252 @@ h1 {
   color: var(--secondary-text-color);
 }
 
-#contact-p {
+.contact-p {
   margin: 15px 0;
   color: var(--terciary-text-color);
 }
 
-#icons > li > a {
+.icons > li > a {
   padding: 5px 19px 0 0;
 }
 
-#icons {
+.icons {
   list-style: none;
   display: flex;
 }
 
 #contact {
   text-align: left;
+}
+
+/* starting second project */
+
+/* works section */
+
+#works {
+  background-color: #f4f5f7;
+  margin: auto;
+  margin-top: 142px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 120px 10px;
+  padding-bottom: 8%;
+}
+
+.wraper {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+}
+
+.image {
+  min-width: 295px;
+  min-height: 220px;
+  border-radius: 8px;
+  justify-self: center;
+  align-self: center;
+}
+
+.work-info {
+  margin: 0 auto;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.description-wraper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.description-wraper > img {
+  width: 2%;
+  height: 2%;
+  margin: 0 8px;
+}
+
+.frameworks-list {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.framework {
+  margin: 5px 10px 5px 0;
+  padding: 1% 2%;
+  background-color: #ebebff;
+  color: #6070ff;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.project-btn {
+  padding: 10px 15px;
+  color: #396df2;
+  font-weight: 500;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.project-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.project-btn:active {
+  background-color: #2230d2;
+}
+
+.project-btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
+.work-child {
+  line-height: 24px;
+}
+
+.work-info > {
+  color: #091e42;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.description-wraper > h3 {
+  color: #344563;
+  font-weight: bold;
+}
+
+.description-wraper > p {
+  color: #6b778c;
+  font-weight: 400;
+}
+
+.work-text {
+  color: #344563;
+  font-weight: 400;
+}
+
+/* about me section */
+
+#container2 {
+  background-color: #fff;
+  border-radius: 0 150px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+#about-me {
+  border-radius: 0 150px 0 0;
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+}
+
+#aboutme-desc {
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+#ab-me-technical {
+  padding: 0 0 0 20px;
+  width: 100%;
+}
+
+#frames {
+  display: flex;
+  width: auto;
+}
+
+#lang-list {
+  display: grid;
+  grid-gap: 10px;
+  list-style: none;
+  width: 100%;
+}
+
+#lang-list > li {
+  padding: 10px;
+  background-color: #f4f5f7;
+  border-radius: 8px;
+  text-align: left;
+}
+
+#lang-list > li > img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.technical {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#languajes {
+  flex-direction: column;
+  padding: 20px 5px 20px 0;
+}
+
+#lang-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 50px 20px 0;
+}
+
+.technical2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #dfe1e6;
+  padding: 0 50px 0 0;
+}
+
+.ab-me-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#ab-me {
+  font-size: 40px;
+  font-weight: 700;
+  color: #091e42;
+  line-height: 52px;
+  padding-right: 31px;
+}
+
+#ab-me-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  font-weight: 400;
+}
+
+.icons2 {
+  margin-left: 15px;
+}
+
+#lang-list > li > p {
+  font-weight: 500;
+  color: #253858;
+}
+
+.work-info > h2 {
+  color: #172b4d;
+  margin-top: 10px;
 }
