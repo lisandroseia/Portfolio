@@ -23,7 +23,8 @@ html & css
 ## getting started
 **Set up**
 
-This project is based on mobile size, so you should inspect the demo in mobile or responsiveness sizes
+This project is based on mobile size, so you should inspect the demo in mobile or responsiveness 
+sizes(max-width: 766px)
 
 ## Authors
 
