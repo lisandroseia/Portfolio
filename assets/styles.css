@@ -191,10 +191,18 @@ h1 {
 
 .project-btn:hover {
   cursor: pointer;
+  background-color: #6070FF;
+  color: #fff;
 }
 
-.project-btn:active {
-  background-color: #f4f5f7;
+.project-btn:active{
+background-color: #2230D2;
+}
+
+.project-btn:disabled{
+  background-color: #fff;
+  color: #5E6C84;
+  border: 1px solid #5E6C84;
 }
 
 .work-child {
@@ -240,6 +248,7 @@ h1 {
 }
 
 #aboutme-desc {
+  margin-left: 10px;
   padding-top: 20px;
 }
 
