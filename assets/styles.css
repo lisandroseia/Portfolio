@@ -191,18 +191,18 @@ h1 {
 
 .project-btn:hover {
   cursor: pointer;
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
-.project-btn:active{
-background-color: #2230D2;
+.project-btn:active {
+  background-color: #2230d2;
 }
 
-.project-btn:disabled{
+.project-btn:disabled {
   background-color: #fff;
-  color: #5E6C84;
-  border: 1px solid #5E6C84;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
 }
 
 .work-child {
