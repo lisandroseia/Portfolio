@@ -245,6 +245,7 @@ h1 {
   display: flex;
   margin: auto;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #aboutme-desc {
@@ -343,3 +344,45 @@ h1 {
   color: #172b4d;
   margin-top: 10px;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: url(./imgs/header-shapes-transparent.svg) no-repeat center center;
+}
+
+
+
+#contact-head {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 90%;
+   margin: auto;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  align-items: center;
+}
+
+fieldset > input, textarea {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+fieldset > textarea {
+height: 170px;
+}
+
+
+
+
+
