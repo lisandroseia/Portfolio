@@ -347,12 +347,13 @@ h1 {
 
 footer {
   border-radius: 150px 0 0 0;
-  height: 100vh;
+  height: 92%;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background: url(./imgs/header-shapes\ mobile@2x.svg) no-repeat center center,
+  background:
+    url(./imgs/header-shapes\ mobile@2x.svg) no-repeat center center,
     url(./imgs/contact-me.png) no-repeat center center,
     url(./imgs/back-img.png) no-repeat center center;
   background-size: 100% 100%;
@@ -396,7 +397,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-#contact-head > p {
+#contactme-text {
   font-size: 20px;
   color: #ebebff;
   font-weight: 400;
@@ -408,6 +409,6 @@ fieldset > button {
   margin-top: 20px;
 }
 
-footer > img{
+#shape-img {
   margin-bottom: 5px;
 }
