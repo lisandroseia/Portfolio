@@ -346,21 +346,24 @@ h1 {
 }
 
 footer {
+  border-radius: 150px 0 0 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   align-items: center;
-  background: url(./imgs/header-shapes-transparent.svg) no-repeat center center;
+  background: url(./imgs/header-shapes\ mobile@2x.svg) no-repeat center center,
+    url(./imgs/contact-me.png) no-repeat center center,
+    url(./imgs/back-img.png) no-repeat center center;
+  background-size: 100% 100%;
 }
 
-
-
 #contact-head {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   width: 90%;
-   margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 fieldset {
@@ -369,20 +372,37 @@ fieldset {
   justify-content: center;
   border: none;
   align-items: center;
+  width: 100%;
 }
 
-fieldset > input, textarea {
+fieldset > input,
+textarea {
   width: 327px;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
-fieldset > textarea {
-height: 170px;
+.text-area {
+  height: 170px;
 }
 
+#contact-head > h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
 
+#contact-head > p {
+  font-size: 20px;
+  color: #ebebff;
+  font-weight: 400;
+  line-height: 28px;
+}
 
-
-
+fieldset > button {
+  align-self: flex-start;
+  margin-top: 20px;
+}
