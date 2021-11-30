@@ -350,7 +350,7 @@ footer {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 100%;
   align-items: center;
   background: url(./imgs/header-shapes\ mobile@2x.svg) no-repeat center center,
     url(./imgs/contact-me.png) no-repeat center center,
@@ -373,6 +373,7 @@ fieldset {
   border: none;
   align-items: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 fieldset > input,
