@@ -407,3 +407,7 @@ fieldset > button {
   align-self: flex-start;
   margin-top: 20px;
 }
+
+footer > img{
+  margin-bottom: 5px;
+}
