@@ -28,10 +28,16 @@ sizes(max-width: 766px)
 
 ## Authors
 
-👤 **Author1**
+👤 **Lisandro Seia**
 
 - GitHub: [@lisandroseia](https://github.com/lisandroseia)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
+
+👤 **Sumair Qaisar Jadoon**
+
+- GitHub: [@sumairq](https://github.com/sumairq)
+- Twitter: [@sumair_qaisar](https://twitter.com/sumair_qaisar)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sumair-qaisar-jadoon-84a877164)
 
 ## 🤝 Contributing
 
