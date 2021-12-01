@@ -347,7 +347,7 @@ h1 {
 
 footer {
   border-radius: 100px 0 0 0;
-  height: 130vh;
+  height: 115vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -388,8 +388,9 @@ fieldset {
   justify-content: center;
   border: none;
   align-items: center;
-  width: 100%;
-  margin-bottom: 100px;
+  width: 350px;
+  height: 300px;
+  margin: auto auto 100px auto;
 }
 
 fieldset > input,
@@ -433,11 +434,6 @@ textarea::placeholder {
   margin-bottom: 20px;
 }
 
-fieldset > button {
-  align-self: flex-start;
-  margin-top: 10px;
-}
-
 #shape-img {
   margin-bottom: 5px;
   width: 134px;
@@ -446,4 +442,9 @@ fieldset > button {
 
 .contact-child {
   margin: 10px 0;
+}
+
+fieldset > button {
+  align-self: flex-start;
+  margin: 10px 0 0 13px;
 }
