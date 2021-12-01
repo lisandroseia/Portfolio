@@ -346,17 +346,32 @@ h1 {
 }
 
 footer {
-  border-radius: 150px 0 0 0;
-  height: 92%;
+  border-radius: 100px 0 0 0;
+  height: 130vh;
   display: flex;
   flex-direction: column;
   width: 100%;
+  justify-content: center;
   align-items: center;
-  background:
-    url(./imgs/header-shapes\ mobile@2x.svg) no-repeat center center,
-    url(./imgs/contact-me.png) no-repeat center center,
-    url(./imgs/back-img.png) no-repeat center center;
+  background: url(./imgs/contact-me.png) no-repeat center center;
   background-size: 100% 100%;
+}
+
+#container3 {
+  width: 100%;
+  height: 100%;
+  background: url(./imgs/back-img.png) no-repeat top right;
+  background-size: 50% 87%;
+}
+
+#container4 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  align-content: center;
+  justify-content: space-between;
 }
 
 #contact-head {
@@ -385,6 +400,19 @@ textarea {
   border-radius: 8px;
 }
 
+fieldset > input::placeholder {
+  color: #172b4d;
+}
+
+fieldset > input,
+textarea::placeholder {
+  padding-left: 10px;
+}
+
+textarea::placeholder {
+  padding-top: 5px;
+}
+
 .text-area {
   height: 170px;
 }
@@ -394,7 +422,7 @@ textarea {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  margin-bottom: 20px;
+  margin: 70px 0 15px 0;
 }
 
 #contactme-text {
@@ -402,13 +430,20 @@ textarea {
   color: #ebebff;
   font-weight: 400;
   line-height: 28px;
+  margin-bottom: 20px;
 }
 
 fieldset > button {
   align-self: flex-start;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #shape-img {
   margin-bottom: 5px;
+  width: 134px;
+  align-self: center;
+}
+
+.contact-child {
+  margin: 10px 0;
 }

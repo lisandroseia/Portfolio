@@ -273,48 +273,52 @@
         </section>
       </div>
       <footer>
-        <div id="contact-head">
-          <h2>Contact me</h2>
-          <p id="contactme-text">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
+        <div id="container3">
+          <div id="container4">
+            <div id="contact-head">
+              <h2>Contact me</h2>
+              <p id="contactme-text">
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it
+              </p>
+            </div>
+            <form action="https://formspree.io/f/mgedwpkj" method="POST">
+              <fieldset>
+                <input
+                  class="contact-child"
+                  type="text"
+                  name="full_name"
+                  placeholder="Yeremias"
+                  maxlength="30"
+                  required
+                />
+
+                <input
+                  class="contact-child"
+                  type="email"
+                  name="email"
+                  placeholder="natajayanj14@gmail.com"
+                  required
+                />
+
+                <textarea
+                  class="text-area"
+                  name="message"
+                  id="text"
+                  maxlength="500"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+
+                <button class="project-btn contact-child" type="submit">
+                  Get In Touch
+                </button>
+              </fieldset>
+            </form>
+            <img id="shape-img" src="./assets/imgs/Shape.svg" alt="shape" />
+          </div>
         </div>
-        <form action="https://formspree.io/f/mgedwpkj" method="POST">
-          <fieldset>
-            <input
-              class="work-child"
-              type="text"
-              name="full_name"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            />
-
-            <input
-              class="work-child"
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-
-            <textarea
-              class="text-area"
-              name="message"
-              id="text"
-              maxlength="500"
-              placeholder="Write your message here"
-              required
-            ></textarea>
-
-            <button class="project-btn work-child" type="submit">
-              Get In Touch
-            </button>
-          </fieldset>
-        </form>
-        <img id="shape-img" src="./assets/imgs/Shape.svg" alt="shape" />
       </footer>
     </div>
   </body>
