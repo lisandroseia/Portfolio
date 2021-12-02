@@ -99,15 +99,16 @@ media-querys table
   }
 
   #about-me {
-    padding: 15%;
+    padding: 10%;
   }
 
   #aboutme-desc {
-    width: 55%;
+    width: 70%;
+    height: 120vh;
   }
 
   #ab-me-technical {
-    width: 45%;
+    width: 100%;
   }
 
   #lang-list {
