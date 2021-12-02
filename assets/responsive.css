@@ -51,8 +51,8 @@ media-querys table
   .work-info {
     width: 45%;
     height: 95%;
-padding-top: 15px;
-}
+    padding-top: 15px;
+  }
 
   .second {
     flex-direction: row-reverse;
@@ -92,8 +92,6 @@ padding-top: 15px;
     margin-bottom: 20px;
   }
 
-
-
   /* about me section */
 
   #container2 {
@@ -101,7 +99,7 @@ padding-top: 15px;
   }
 
   #about-me {
-    width: 63%;
+    padding: 15%;
   }
 
   #aboutme-desc {
@@ -123,15 +121,14 @@ padding-top: 15px;
 
   /* contact form */
 
-  #container3{
+  #container3 {
     background: url(./imgs/desk-back-img.png) no-repeat center center;
     background-size: 90% 90%;
   }
 
-  #container4{
+  #container4 {
     width: 40%;
   }
-
 }
 
 /* horizontal tablets and average desktop */
@@ -183,8 +180,8 @@ padding-top: 15px;
   .work-info {
     width: 45%;
     height: 95%;
-padding-top: 15px;
-}
+    padding-top: 15px;
+  }
 
   .second {
     flex-direction: row-reverse;
@@ -224,8 +221,6 @@ padding-top: 15px;
     margin-bottom: 20px;
   }
 
-
-
   /* about me section */
 
   #container2 {
@@ -233,7 +228,7 @@ padding-top: 15px;
   }
 
   #about-me {
-    width: 63%;
+    padding: 15%;
   }
 
   #aboutme-desc {
@@ -252,11 +247,24 @@ padding-top: 15px;
     max-width: 122px;
     height: 120px;
   }
+
+  /* contact form */
+
+  #container3 {
+    background: url(./imgs/desk-back-img.png) no-repeat center center;
+    background-size: 90% 90%;
+  }
+
+  #container4 {
+    width: 40%;
+  }
 }
 
 /* horizontal moviles */
 
 @media (max-width: 767px) {
+  /* navigation bar */
+
   header {
     padding-top: 35px;
   }
@@ -310,6 +318,10 @@ padding-top: 15px;
     width: 100%;
   }
 
+  .bigger {
+    height: 110vh;
+  }
+
   .work-info {
     width: 100%;
     padding-top: 5px;
@@ -341,7 +353,7 @@ padding-top: 15px;
   }
 
   .work-child {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   /* about me section */
@@ -352,7 +364,7 @@ padding-top: 15px;
 
   #about-me {
     flex-direction: column;
-    width: 90%;
+    padding: 3%;
   }
 
   #aboutme-desc {
@@ -385,6 +397,17 @@ padding-top: 15px;
 
   #lang-list > li > img {
     margin-right: 10px;
+  }
+
+  /* contact me section */
+
+  #container3 {
+    background: url(./imgs/back-img.png) no-repeat top right;
+    background-size: 60% 87%;
+  }
+
+  #container4 {
+    width: 90%;
   }
 }
 
@@ -445,8 +468,8 @@ padding-top: 15px;
     height: 50%;
     width: 100%;
   }
-  
-  .bigger{
+
+  .bigger {
     height: 110vh;
   }
 
@@ -492,7 +515,7 @@ padding-top: 15px;
 
   #about-me {
     flex-direction: column;
-    width: 90%;
+    padding: 3%;
   }
 
   #aboutme-desc {
@@ -526,16 +549,15 @@ padding-top: 15px;
   #lang-list > li > img {
     margin-right: 10px;
   }
-  
+
   /* contact me section */
 
-#container3{
-  background: url(./imgs/back-img.png) no-repeat top right;
-  background-size: 60% 87%;
-}
+  #container3 {
+    background: url(./imgs/back-img.png) no-repeat top right;
+    background-size: 60% 87%;
+  }
 
-#container4{
-  width: 90%;
-}
-
+  #container4 {
+    width: 90%;
+  }
 }

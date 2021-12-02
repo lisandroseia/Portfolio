@@ -130,25 +130,24 @@ h1 {
   border-radius: 24px;
 }
 
-.card1{
+.card1 {
   background: url(./imgs/Snapshoot1.svg);
   background-size: cover;
   background-position: center;
-
 }
 
-.card2{
+.card2 {
   background: url(./imgs/Snapshoot2.svg);
   background-size: cover;
   background-position: center;
 }
 
-.card3{
+.card3 {
   background: url(./imgs/Snapshoot3.png);
   background-size: cover;
   background-position: center;
 }
-.card4{
+.card4 {
   background: url(./imgs/Snapshoot4.png);
   background-size: cover;
   background-position: center;
@@ -240,7 +239,7 @@ h1 {
   font-weight: 400;
 }
 
-.works-container{
+.works-container {
   background-color: #f4f5f7;
   margin: auto;
   margin-top: 142px;
@@ -260,6 +259,11 @@ h1 {
   height: auto;
 }
 
+#about-me-section {
+  background-color: #f4f5f7;
+  width: 100%;
+}
+
 #about-me {
   border-radius: 0 150px 0 0;
   background-color: #fff;
@@ -267,6 +271,7 @@ h1 {
   margin: auto;
   padding-top: 150px;
   padding-bottom: 100px;
+  width: 100%;
 }
 
 #aboutme-desc {
@@ -368,7 +373,7 @@ h1 {
 
 footer {
   border-radius: 15% 0 0 0;
-  height: 115vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -407,7 +412,7 @@ fieldset {
   border: none;
   align-items: center;
   width: 350px;
-  height: 300px;
+  height: 250px;
   margin: auto auto 100px auto;
 }
 
@@ -468,14 +473,13 @@ fieldset > button {
 }
 /* desktop nav-bar */
 
-.nav-ul{
-display: flex;
-list-style: none;
+.nav-ul {
+  display: flex;
+  list-style: none;
 }
 
-.nav-ul > li > a{
+.nav-ul > li > a {
   text-decoration: none;
   color: #344563;
   padding: 0 10px;
 }
-
