@@ -129,6 +129,11 @@ media-querys table
   #container4 {
     width: 40%;
   }
+
+  fieldset > input,
+  textarea {
+    width: 447px;
+  }
 }
 
 /* horizontal tablets and average desktop */
@@ -257,6 +262,11 @@ media-querys table
 
   #container4 {
     width: 40%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 447px;
   }
 }
 
@@ -409,6 +419,15 @@ media-querys table
   #container4 {
     width: 90%;
   }
+
+  fieldset > input,
+  textarea {
+    width: 330px;
+  }
+
+  fieldset > button {
+    align-self: flex-start;
+  }
 }
 
 /* average moviles */
@@ -559,5 +578,14 @@ media-querys table
 
   #container4 {
     width: 90%;
+  }
+
+  fieldset > input,
+  textarea {
+    width: 330px;
+  }
+
+  fieldset > button {
+    align-self: flex-start;
   }
 }

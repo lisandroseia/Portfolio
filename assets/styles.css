@@ -374,7 +374,7 @@ h1 {
 
 footer {
   border-radius: 15% 0 0 0;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -413,16 +413,14 @@ fieldset {
   border: none;
   align-items: center;
   width: 350px;
-  height: 250px;
+  height: 400px;
   margin: auto auto 100px auto;
 }
 
 fieldset > input,
 textarea {
-  width: 327px;
   height: 48px;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
 }
 
 fieldset > input::placeholder {
@@ -465,11 +463,10 @@ textarea::placeholder {
 }
 
 .contact-child {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 fieldset > button {
-  align-self: flex-start;
   margin: 10px 0 0 13px;
 }
 
