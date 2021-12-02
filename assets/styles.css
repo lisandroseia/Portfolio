@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #f4f5f7;
+  background-color: #fff;
 }
 
 header {
@@ -36,7 +36,7 @@ nav {
   height: 100vh;
   background-color: #f4f5f7;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
   top: 0;
   left: 0;
   right: 0;
-  height: 90px;
+  height: 70px;
   background-color: #fff;
 }
 
@@ -115,14 +115,11 @@ h1 {
 /* works section */
 
 #works {
-  background-color: #f4f5f7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  margin-top: 142px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 120px 10px;
-  padding-bottom: 8%;
+  background-color: #f4f5f7;
 }
 
 .wraper {
@@ -243,6 +240,17 @@ h1 {
   font-weight: 400;
 }
 
+.works-container{
+  background-color: #f4f5f7;
+  margin: auto;
+  margin-top: 142px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 120px 10px;
+  padding-bottom: 8%;
+}
+
 /* about me section */
 
 #container2 {
@@ -257,7 +265,7 @@ h1 {
   background-color: #fff;
   display: flex;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
@@ -359,7 +367,7 @@ h1 {
 }
 
 footer {
-  border-radius: 100px 0 0 0;
+  border-radius: 15% 0 0 0;
   height: 115vh;
   display: flex;
   flex-direction: column;
@@ -373,15 +381,12 @@ footer {
 #container3 {
   width: 100%;
   height: 100%;
-  background: url(./imgs/back-img.png) no-repeat top right;
-  background-size: 60% 87%;
 }
 
 #container4 {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 90%;
   height: 100%;
   align-content: center;
   justify-content: space-between;
@@ -461,7 +466,6 @@ fieldset > button {
   align-self: flex-start;
   margin: 10px 0 0 13px;
 }
-
 /* desktop nav-bar */
 
 .nav-ul{
