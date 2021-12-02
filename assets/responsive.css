@@ -423,6 +423,7 @@ media-querys table
   fieldset > input,
   textarea {
     width: 330px;
+    border-radius: 8px;
   }
 
   fieldset > button {
@@ -583,6 +584,7 @@ media-querys table
   fieldset > input,
   textarea {
     width: 330px;
+    border-radius: 8px;
   }
 
   fieldset > button {
