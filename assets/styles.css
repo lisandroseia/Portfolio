@@ -190,6 +190,33 @@ h1 {
   border-radius: 8px;
 }
 
+/* project buttons */
+
+.link-btn {
+  text-decoration: none;
+  border: 1px solid #dfe1e6;
+  color: #396df2;
+  font-size: 17px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.link-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.link-btn:active {
+  background-color: #2230d2;
+}
+
+.link-btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
 .project-btn {
   padding: 10px 15px;
   color: #396df2;
@@ -500,29 +527,4 @@ button > a {
   color: #396df2;
 }
 
-/* project buttons */
 
-.link-btn {
-  text-decoration: none;
-  border: 1px solid #dfe1e6;
-  color: #396df2;
-  font-size: 17px;
-  border-radius: 8px;
-  padding: 10px;
-}
-
-.link-btn:hover {
-  cursor: pointer;
-  background-color: #6070ff;
-  color: #fff;
-}
-
-.link-btn:active {
-  background-color: #2230d2;
-}
-
-.link-btn:disabled {
-  background-color: #fff;
-  color: #5e6c84;
-  border: 1px solid #5e6c84;
-}
