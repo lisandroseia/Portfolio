@@ -6,11 +6,12 @@ media-querys table
 
 @media (min-width: 1200px) {
   header {
-    padding-top: 25px;
+    padding-top: 20px;
+    width: 63%;
   }
 
   nav {
-    width: 75%;
+    width: 100%;
   }
 
   h1 {
@@ -39,7 +40,7 @@ media-querys table
   }
 
   #works {
-    width: 63%;
+    width: 68%;
   }
 
   .image {
@@ -49,8 +50,9 @@ media-querys table
 
   .work-info {
     width: 45%;
-    height: 100%;
-  }
+    height: 95%;
+padding-top: 15px;
+}
 
   .second {
     flex-direction: row-reverse;
@@ -58,6 +60,7 @@ media-querys table
 
   .wraper {
     padding: 10px;
+    height: 120%;
   }
 
   .work-info > h2 {
@@ -88,6 +91,8 @@ media-querys table
   .work-child {
     margin-bottom: 20px;
   }
+
+
 
   /* about me section */
 
@@ -423,6 +428,10 @@ media-querys table
     height: 50%;
     width: 100%;
   }
+  
+  .bigger{
+    height: 110vh;
+  }
 
   .work-info {
     width: 100%;
@@ -500,4 +509,9 @@ media-querys table
   #lang-list > li > img {
     margin-right: 10px;
   }
+  
+  /* contact me section */
+
+
+
 }
