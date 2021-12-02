@@ -147,6 +147,7 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+
 .card4 {
   background: url(./imgs/Snapshoot4.png);
   background-size: cover;
@@ -471,6 +472,7 @@ fieldset > button {
   align-self: flex-start;
   margin: 10px 0 0 13px;
 }
+
 /* desktop nav-bar */
 
 .nav-ul {
