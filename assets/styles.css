@@ -24,10 +24,12 @@ header {
 }
 
 nav {
+  height: 100%;
   margin: auto;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-content: center;
 }
 
 #container {
@@ -54,6 +56,11 @@ main {
   font-weight: 700;
   color: var(--logo-color);
   text-decoration: none;
+  transition-duration: 500ms;
+}
+
+#logo:hover{
+  color: #020c1d;
 }
 
 .bx-menu {
