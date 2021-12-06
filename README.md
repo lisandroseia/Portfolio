@@ -6,7 +6,7 @@
 
 ## Project description:
  
- In this project i made a copy of [this page](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+ In this project i made a copy of [this template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 
 ## Built With
 
