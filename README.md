@@ -1,4 +1,4 @@
-### Portfolio
+# Portfolio
 
 > this is my second microverse project
 
@@ -10,10 +10,10 @@
 
 ## Built With
 
-# Major languages
+### Major languages
 - **html & css**
  
-# Technologies used:
+### Technologies used:
 - **github**
 
 ## Live Demo
