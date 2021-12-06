@@ -10,11 +10,10 @@ Portfolio
 
 ## Built With
 
-- Major languages
-html & css
-- 
-- Technologies used:
-  github
+# Major languages: 
+- html & css 
+# Technologies used:
+- github
 
 ## Live Demo
 
