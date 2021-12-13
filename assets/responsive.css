@@ -449,7 +449,7 @@ media-querys table
     flex-direction: column;
     position: fixed;
     inset: 0 0 0 0;
-    background-color: #fff;
+    background-color: hsl(234, 100%, 69%);
     gap: 32px;
     align-items: center;
     padding-top: 200px;
@@ -457,12 +457,23 @@ media-querys table
     transform: translateX(100%);
   }
 
+  .nav-ul[data-visible="true"]{
+    transform: translateX(0%);
+  }
+
   .hamburger-btn {
     background: url(./imgs/Enabled.svg) no-repeat;
     width: 40px;
     height: 40px;
     border: #fff;
+    z-index: 9999;
   }
+
+  .hamburger-btn[aria-expanded="true"]{
+    background: url(./imgs/Close.svg);
+  }
+
+
   
   /* presentation section */
 
