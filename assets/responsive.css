@@ -445,6 +445,18 @@ media-querys table
     width: 80%;
   }
 
+  .nav-ul{
+    flex-direction: column;
+    position: fixed;
+    inset: 0 0 0 0;
+    background-color: #fff;
+    gap: 32px;
+    align-items: center;
+    padding-top: 200px;
+
+    transform: translateX(100%);
+  }
+  
   /* presentation section */
 
   h1 {
