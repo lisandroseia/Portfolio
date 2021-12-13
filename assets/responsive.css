@@ -445,7 +445,7 @@ media-querys table
     width: 80%;
   }
 
-  .nav-ul{
+  .nav-ul {
     flex-direction: column;
     position: fixed;
     inset: 0 0 0 0;
@@ -455,6 +455,13 @@ media-querys table
     padding-top: 200px;
 
     transform: translateX(100%);
+  }
+
+  .hamburger-btn {
+    background: url(./imgs/Enabled.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: #fff;
   }
   
   /* presentation section */
