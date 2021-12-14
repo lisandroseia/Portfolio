@@ -37,6 +37,12 @@ To check this project you should open the live demo
 - Twitter: [@sumair_qaisar](https://twitter.com/sumair_qaisar)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sumair-qaisar-jadoon-84a877164)
 
+👤 **Sahar Abdel Samad**
+
+- GitHub: [@sahar-abdelsamad](https://github.com/Sahar-AbdelSamad)
+- Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
+- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/abdel-samad-sahar-353977223/) 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
