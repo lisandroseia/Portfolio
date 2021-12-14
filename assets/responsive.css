@@ -474,6 +474,7 @@ media-querys table
   }
 
   .hamburger-btn {
+    display: block;
     background: url(./imgs/Enabled.svg) no-repeat;
     width: 40px;
     height: 40px;
@@ -485,10 +486,6 @@ media-querys table
     color: #fff;
     font-weight: 600;
     font-size: 32px;
-  }
-
-  .hamburger-btn {
-    display: block;
   }
 
   .hamburger-btn[aria-expanded="true"] {
