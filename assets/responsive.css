@@ -153,6 +153,10 @@ media-querys table
     width: 100%;
   }
 
+  .hamburger-btn {
+    display: none;
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -179,7 +183,7 @@ media-querys table
   }
 
   .works-container {
-    width: 68%;
+    width: 63%;
   }
 
   .image {
@@ -238,15 +242,16 @@ media-querys table
   }
 
   #about-me {
-    padding: 15%;
+    padding: 10%;
   }
 
   #aboutme-desc {
-    width: 55%;
+    width: 70%;
+    height: 120vh;
   }
 
   #ab-me-technical {
-    width: 45%;
+    width: 100%;
   }
 
   #lang-list {
@@ -286,6 +291,49 @@ media-querys table
 
   nav {
     width: 80%;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    justify-self: flex-end;
+    position: fixed;
+    inset: 0 0 0 0;
+    background: rgba(4, 19, 156, 0.7);
+    backdrop-filter: blur(8px);
+    gap: 32px;
+    align-items: center;
+    padding-top: 150px;
+    transform: translateX(100%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-ul[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .nav-ul > li {
+    align-self: flex-start;
+    padding-left: 15px;
+  }
+
+  .hamburger-btn {
+    display: block;
+    background: url(./imgs/Enabled.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: #fff;
+    z-index: 9999;
+  }
+
+  .nav-li > a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .hamburger-btn[aria-expanded="true"] {
+    background: url(./imgs/Close.svg);
   }
 
   /* presentation section */
