@@ -37,6 +37,12 @@ popupBtn.forEach((item) => {
       let project = item.getAttribute('data-value')
       console.log(pages[project].title)
       popupContainer.setAttribute('data-visible', true)
+      for (let i=0; i< titles.length; i++){
+        if (item.target===popupBtn[i]){
+        popupTitle.textContent = pages[`project${i}`].title;
+        }
+        console.log(item.target)
+      }
   })
 })
 
@@ -72,9 +78,15 @@ for(let i = 0; i < titles.length; i++){
   pages[`project${i}`].title = titles[i];
   pages[`project${i}`].description = descriptions[i];
   pages[`project${i}`].technology = technologies[i];
-
+  pages[`project${i}`].liveproject ="https://lisandroseia.github.io/Portfolio/";
+  pages[`project${i}`].githubrepo ="https://github.com/lisandroseia/Portfolio ";
 }
 
-console.log(pages)
+const popupTitle = document.createElement('h2');
+popupTitle.className = ('popup-title');
+popupContainer.appendChild(popupTitle);
+
+
+
 
 
