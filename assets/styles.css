@@ -527,3 +527,27 @@ fieldset > button {
   text-decoration: none;
   padding: 0 10px;
 }
+
+.modal-container{
+  display: none;
+}
+
+.modal-container[data-visible="true"]{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10%;
+  width: 80%;
+  height:80%;
+  margin: auto;
+  background-color: red;
+}
+
+.popup-btn{
+  width: 40px;
+  height: 40px;
+  background: url(./imgs/Close.svg) no-repeat center center;
+  align-self: flex-end;
+}
+
+
