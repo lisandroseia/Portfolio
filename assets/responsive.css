@@ -512,7 +512,7 @@ media-querys table
   .popupEnd {
     flex-direction: column;
   }
-  
+
   .modal-container[data-visible='true'] {
     inset: 1% 2% 1% 2%;
     padding: 2%;

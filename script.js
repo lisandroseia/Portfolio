@@ -79,7 +79,7 @@ const images = [
 ];
 
 const pages = {};
-for (let i = 0; i < titles.length; i+=1) {
+for (let i = 0; i < titles.length; i += 1) {
   pages[`project${i}`] = {};
   pages[`project${i}`].title = titles[i];
   pages[`project${i}`].description = descriptions[i];
