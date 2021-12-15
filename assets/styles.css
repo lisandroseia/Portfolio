@@ -557,11 +557,10 @@ fieldset > button {
 }
 
 .popupDescription {
-  width: 60%;
   font-size: 15px;
   font-weight: 400;
   color: #344563;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
 .popupTools {
