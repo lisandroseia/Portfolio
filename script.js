@@ -32,25 +32,12 @@ const popupBtn = document.querySelectorAll('.link-btn');
 const popupContainer = document.createElement('section');
 popupContainer.className = 'modal-container';
 popupContainer.setAttribute('data-visible', 'false');
-console.log(popupContainer);
 
 document.body.appendChild(popupContainer);
 
 const closeBtn = document.createElement('button');
 closeBtn.className = 'popup-btn';
 popupContainer.appendChild(closeBtn);
-
-popupBtn.forEach((item) => {
-  item.addEventListener('click', () => {
-    const project = item.getAttribute('data-value');
-    modalWindow(project);
-    popupContainer.setAttribute('data-visible', true);
-  });
-});
-
-closeBtn.addEventListener('click', () => {
-  popupContainer.setAttribute('data-visible', false);
-});
 
 const titles = [];
 
@@ -92,16 +79,14 @@ const images = [
 ];
 
 const pages = {};
-for (let i = 0; i < titles.length; i++) {
+for (let i = 0; i < titles.length; i+=1) {
   pages[`project${i}`] = {};
   pages[`project${i}`].title = titles[i];
   pages[`project${i}`].description = descriptions[i];
   pages[`project${i}`].technology = technologies[i];
   pages[`project${i}`].details = subDets[i];
-  pages[`project${i}`].liveproject =
-    'https://lisandroseia.github.io/Portfolio/';
-  pages[`project${i}`].githubrepo =
-    'https://github.com/lisandroseia/Portfolio ';
+  pages[`project${i}`].liveproject = 'https://lisandroseia.github.io/Portfolio/';
+  pages[`project${i}`].githubrepo = 'https://github.com/lisandroseia/Portfolio ';
   pages[`project${i}`].image = images[i];
 }
 
@@ -117,7 +102,7 @@ const imageContainer = document.createElement('div');
 popupContainer.appendChild(imageContainer);
 imageContainer.className = 'popupImg';
 
-let popupFlex = document.createElement('div');
+const popupFlex = document.createElement('div');
 popupContainer.appendChild(popupFlex);
 popupFlex.className = 'popupEnd';
 
@@ -171,18 +156,22 @@ function modalWindow(project) {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
     tools.appendChild(frame3);
-    frame1.textContent = pages[project].technology[0];
-    frame2.textContent = pages[project].technology[1];
-    frame3.textContent = pages[project].technology[2];
+    [
+      frame1.textContent,
+      frame2.textContent,
+      frame3.textContent,
+    ] = pages[project].technology;
   } else {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
     tools.appendChild(frame3);
     tools.appendChild(frame4);
-    frame1.textContent = pages[project].technology[0];
-    frame2.textContent = pages[project].technology[1];
-    frame3.textContent = pages[project].technology[2];
-    frame4.textContent = pages[project].technology[3];
+    [
+      frame1.textContent,
+      frame2.textContent,
+      frame3.textContent,
+      frame4.textContent,
+    ] = pages[project].technology;
   }
   btn1.target = 'blank';
   btn1.href = pages[project].liveproject;
@@ -195,3 +184,15 @@ function modalWindow(project) {
                   <img alt="dot" src="./assets/imgs/Counter.png" />
                          <li class="third-detail">${pages[project].details[2]}</li>`;
 }
+
+popupBtn.forEach((item) => {
+  item.addEventListener('click', () => {
+    const project = item.getAttribute('data-value');
+    modalWindow(project);
+    popupContainer.setAttribute('data-visible', true);
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  popupContainer.setAttribute('data-visible', false);
+});
