@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Zen+Old+Mincho&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Zen+Old+Mincho&display=swap');
 
 :root {
   --logo-color: #6070ff;
@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -528,26 +528,109 @@ fieldset > button {
   padding: 0 10px;
 }
 
-.modal-container{
+.modal-container {
   display: none;
 }
 
-.modal-container[data-visible="true"]{
+.modal-container[data-visible='true'] {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 10%;
-  width: 80%;
-  height:80%;
-  margin: auto;
-  background-color: red;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
-.popup-btn{
+.popupDescription {
+  width: 60%;
+  font-size: 15px;
+  font-weight: 400;
+  color: #344563;
+  padding-right: 30px;
+}
+
+.popupTools {
+  list-style: none;
+  display: flex;
+  gap: 0.625rem;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.popupTools > li {
+  margin: 5px 10px 5px 0;
+  padding: 2px 10px;
+  background-color: #ebebff;
+  color: #6070ff;
+  font-weight: 500;
+  border-radius: 8px;
+  height: 30px;
+}
+
+.popupEnd {
+  display: flex;
+}
+
+.popupBtns > a {
+  margin-right: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btns-ul .link-btn {
+  width: 150px;
+}
+
+.popupBtns {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid #ebecf0;
+}
+
+.popup-btn {
   width: 40px;
-  height: 40px;
-  background: url(./imgs/Close.svg) no-repeat center center;
-  align-self: flex-end;
+  aspect-ratio: 1;
+  background: url(./imgs/popupclose.png) no-repeat center center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
 }
 
+.popup-btn:hover {
+  cursor: pointer;
+}
 
+.popup-head {
+  width: 100%;
+  color: #172b4d;
+  font-weight: 700;
+}
+
+.popup-details {
+  list-style: none;
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  font-size: 13px;
+  color: #7a869a;
+  font-weight: 600;
+}
+
+.first-detail {
+  color: #344563;
+}
+
+.popupImg {
+  width: 100%;
+  aspect-ratio: 1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin: 15px 0 20px 0;
+}
+
+.popup-details img[alt='dot'] {
+  height: 8px;
+  aspect-ratio: 1;
+}

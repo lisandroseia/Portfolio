@@ -139,6 +139,19 @@ media-querys table
   textarea {
     width: 447px;
   }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 10% 1% 10%;
+    padding: 0.5%;
+  }
+
+  .popupDescription {
+    width: 60%;
+  }
+
+  .popup-head {
+    font-size: 40px;
+  }
 }
 
 /* horizontal tablets and average desktop */
@@ -278,6 +291,19 @@ media-querys table
   textarea {
     width: 447px;
   }
+
+  .modal-container[data-visible='true'] {
+    inset: 1% 10% 1% 10%;
+    padding: 0.5%;
+  }
+
+  .popupDescription {
+    width: 60%;
+  }
+
+  .popup-head {
+    font-size: 40px;
+  }
 }
 
 /* horizontal moviles */
@@ -308,7 +334,7 @@ media-querys table
     transition-timing-function: ease-out;
   }
 
-  .nav-ul[data-visible="true"] {
+  .nav-ul[data-visible='true'] {
     transform: translateX(0%);
   }
 
@@ -332,7 +358,7 @@ media-querys table
     font-size: 32px;
   }
 
-  .hamburger-btn[aria-expanded="true"] {
+  .hamburger-btn[aria-expanded='true'] {
     background: url(./imgs/Close.svg);
   }
 
@@ -481,6 +507,22 @@ media-querys table
 
   fieldset > button {
     align-self: flex-start;
+  }
+
+  .popupEnd {
+    flex-direction: column;
+  }
+  .modal-container[data-visible='true'] {
+    inset: 1% 2% 1% 2%;
+    padding: 2%;
+  }
+
+  .popupDescription {
+    width: 100%;
+  }
+
+  .popup-head {
+    font-size: 28px;
   }
 }
 
@@ -512,7 +554,7 @@ media-querys table
     transition-timing-function: ease-out;
   }
 
-  .nav-ul[data-visible="true"] {
+  .nav-ul[data-visible='true'] {
     transform: translateX(0%);
   }
 
@@ -536,7 +578,7 @@ media-querys table
     font-size: 32px;
   }
 
-  .hamburger-btn[aria-expanded="true"] {
+  .hamburger-btn[aria-expanded='true'] {
     background: url(./imgs/Close.svg);
   }
 
@@ -685,5 +727,21 @@ media-querys table
 
   fieldset > button {
     align-self: flex-start;
+  }
+
+  .popupEnd {
+    flex-direction: column;
+  }
+  .modal-container[data-visible='true'] {
+    inset: 1% 2% 1% 2%;
+    padding: 2%;
+  }
+
+  .popupDescription {
+    width: 100%;
+  }
+
+  .popup-head {
+    font-size: 28px;
   }
 }
