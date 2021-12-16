@@ -637,7 +637,9 @@ fieldset > button {
 /* Validate form */
 
 .error {
+  align-self: flex-start;
   display: block;
-  color: red;
-  font-size: larger;
+  color: #991f00;
+  font-size: 18px;
+  font-weight: bold;
 }

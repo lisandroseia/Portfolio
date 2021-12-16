@@ -201,10 +201,6 @@ closeBtn.addEventListener('click', () => {
 
 const email = document.getElementById('email');
 const submit = document.getElementById('submit');
-// const textArea = document.querySelector('#text');
-// const errorMsg = document.createElement('p');
-// textArea.appendChild(errorMsg);
-// errorMsg.className = 'error';
 const errorMsg = document.querySelector('.error');
 
 let pattern = /([A-Z])/g;
@@ -212,6 +208,8 @@ let pattern = /([A-Z])/g;
 submit.addEventListener('click', (e) => {
      if(pattern.test(email.value)){
        e.preventDefault();
-       errorMsg.innerText = ('invalid email');
+       errorMsg.innerText = (`Invalid email  \n Try with: ${email.value.toLowerCase()}`);
+     }else{
+       errorMsg.innerText = ('');
      }
-})
+});
