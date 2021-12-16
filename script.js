@@ -85,8 +85,10 @@ for (let i = 0; i < titles.length; i += 1) {
   pages[`project${i}`].description = descriptions[i];
   pages[`project${i}`].technology = technologies[i];
   pages[`project${i}`].details = subDets[i];
-  pages[`project${i}`].liveproject = 'https://lisandroseia.github.io/Portfolio/';
-  pages[`project${i}`].githubrepo = 'https://github.com/lisandroseia/Portfolio ';
+  pages[`project${i}`].liveproject =
+    'https://lisandroseia.github.io/Portfolio/';
+  pages[`project${i}`].githubrepo =
+    'https://github.com/lisandroseia/Portfolio ';
   pages[`project${i}`].image = images[i];
 }
 
@@ -156,11 +158,8 @@ function modalWindow(project) {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
     tools.appendChild(frame3);
-    [
-      frame1.textContent,
-      frame2.textContent,
-      frame3.textContent,
-    ] = pages[project].technology;
+    [frame1.textContent, frame2.textContent, frame3.textContent] =
+      pages[project].technology;
   } else {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
@@ -203,13 +202,13 @@ const email = document.getElementById('email');
 const submit = document.getElementById('submit');
 const errorMsg = document.querySelector('.error');
 
-let pattern = /([A-Z])/g;
+const pattern = /([A-Z])/g;
 
 submit.addEventListener('click', (e) => {
-     if(pattern.test(email.value)){
-       e.preventDefault();
-       errorMsg.innerText = (`Invalid email  \n Try with: ${email.value.toLowerCase()}`);
-     }else{
-       errorMsg.innerText = ('');
-     }
+  if (pattern.test(email.value)) {
+    e.preventDefault();
+    errorMsg.innerText = `Invalid email  \n Try with: ${email.value.toLowerCase()}`;
+  } else {
+    errorMsg.innerText = '';
+  }
 });
