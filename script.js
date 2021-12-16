@@ -201,16 +201,17 @@ closeBtn.addEventListener('click', () => {
 
 const email = document.getElementById('email');
 const submit = document.getElementById('submit');
-const form = document.querySelector('#form');
-const errorMsg = document.createElement('p');
-form.appendChild(errorMsg);
-errorMsg.className = 'error';
+// const textArea = document.querySelector('#text');
+// const errorMsg = document.createElement('p');
+// textArea.appendChild(errorMsg);
+// errorMsg.className = 'error';
+const errorMsg = document.querySelector('.error');
 
-let pattern = /([A-Z])/;
+let pattern = /([A-Z])/g;
 
 submit.addEventListener('click', (e) => {
      if(pattern.test(email.value)){
        e.preventDefault();
-       errorMsg.textContent = 'invalid email'
+       errorMsg.innerText = ('invalid email');
      }
 })

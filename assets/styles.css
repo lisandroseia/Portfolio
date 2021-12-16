@@ -633,3 +633,11 @@ fieldset > button {
   height: 8px;
   aspect-ratio: 1/1;
 }
+
+/* Validate form */
+
+.error {
+  display: block;
+  color: red;
+  font-size: larger;
+}
