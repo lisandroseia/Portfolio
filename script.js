@@ -156,11 +156,7 @@ function modalWindow(project) {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
     tools.appendChild(frame3);
-    [
-      frame1.textContent,
-      frame2.textContent,
-      frame3.textContent,
-    ] = pages[project].technology;
+    [frame1.textContent, frame2.textContent, frame3.textContent] = pages[project].technology;
   } else {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
@@ -195,4 +191,21 @@ popupBtn.forEach((item) => {
 
 closeBtn.addEventListener('click', () => {
   popupContainer.setAttribute('data-visible', false);
+});
+
+/* validate form */
+
+const email = document.getElementById('email');
+const submit = document.getElementById('submit');
+const errorMsg = document.querySelector('.error');
+
+const pattern = /([A-Z])/g;
+
+submit.addEventListener('click', (e) => {
+  if (pattern.test(email.value)) {
+    e.preventDefault();
+    errorMsg.innerText = `Invalid email  \n Try with: ${email.value.toLowerCase()}`;
+  } else {
+    errorMsg.innerText = '';
+  }
 });
