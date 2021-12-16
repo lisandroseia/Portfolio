@@ -85,10 +85,8 @@ for (let i = 0; i < titles.length; i += 1) {
   pages[`project${i}`].description = descriptions[i];
   pages[`project${i}`].technology = technologies[i];
   pages[`project${i}`].details = subDets[i];
-  pages[`project${i}`].liveproject =
-    'https://lisandroseia.github.io/Portfolio/';
-  pages[`project${i}`].githubrepo =
-    'https://github.com/lisandroseia/Portfolio ';
+  pages[`project${i}`].liveproject = 'https://lisandroseia.github.io/Portfolio/';
+  pages[`project${i}`].githubrepo = 'https://github.com/lisandroseia/Portfolio ';
   pages[`project${i}`].image = images[i];
 }
 
@@ -158,8 +156,7 @@ function modalWindow(project) {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
     tools.appendChild(frame3);
-    [frame1.textContent, frame2.textContent, frame3.textContent] =
-      pages[project].technology;
+    [frame1.textContent, frame2.textContent, frame3.textContent] = pages[project].technology;
   } else {
     tools.appendChild(frame1);
     tools.appendChild(frame2);
