@@ -196,3 +196,21 @@ popupBtn.forEach((item) => {
 closeBtn.addEventListener('click', () => {
   popupContainer.setAttribute('data-visible', false);
 });
+
+/* validate form */
+
+const email = document.getElementById('email');
+const submit = document.getElementById('submit');
+const form = document.querySelector('#form');
+const errorMsg = document.createElement('p');
+form.appendChild(errorMsg);
+errorMsg.className = 'error';
+
+let pattern = /([A-Z])/;
+
+submit.addEventListener('click', (e) => {
+     if(pattern.test(email.value)){
+       e.preventDefault();
+       errorMsg.textContent = 'invalid email'
+     }
+})
